@@ -6,6 +6,9 @@
 	"repository": "https://github.com/amoutonbrady/ha-dom.git",
 	"license": "MIT",
 	"author": "Alexandre Mouton-Brady <amoutonbrady@gmail.com>",
+	"files": [
+		"pkg/"
+	],
 	"main": "src/index.js",
 	"scripts": {
 		"build": "pika build",
