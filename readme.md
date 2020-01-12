@@ -74,6 +74,12 @@ _note: the library exports a default function and a name function_
 
 You can find more example in the `tests` directory
 
+## Limitations
+
+This utility is based on an non polyfillable feature: Proxy. This can't be used in a non evergreen browser.
+
+See [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#Browser_compatibility) for the full compatibility list. We only make use of the `handler.get` feature.
+
 ## Contributing
 
 ```bash
@@ -95,5 +101,5 @@ You can find more example in the `tests` directory
 
 ## Aknowledgment
 
--   [This issue]() that kind of started it all
--   [Hyperapp]() which is the framework I had in mind while prototyping this
+-   [This issue](https://github.com/ohanhi/hyperscript-helpers/issues/26) that kind of started it all
+-   [Hyperapp](https://github.com/jorgebucaran/hyperapp) which is the framework I had in mind while prototyping this
