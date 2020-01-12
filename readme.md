@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/amoutonbrady/baracuda/branch/master/graph/badge.svg)](https://codecov.io/gh/amoutonbrady/baracuda)
+
 # Baracuda
 
 A tiny (319B), modern and fast utility to make working with [hyperscript](https://github.com/hyperhype/hyperscript) easier
