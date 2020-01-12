@@ -1,12 +1,10 @@
-import { h } from 'hyperapp';
+// Inspired by https://github.com/ohanhi/hyperscript-helpers/issues/26
+const isObject = param => String(param) === '[object Object]';
 
-const isObject = object => String(object) === '[object Object]';
+export const baracuda = h =>
+	new Proxy(h, {
+		get: (_, tag) => (props, childrens) =>
+			isObject(props) ? h(tag, props, childrens) : h(tag, {}, props),
+	});
 
-const haDom = new Proxy(
-	{},
-	{
-		get: (_, tag) => (props, children) => h(tag, isObject(props) ? props : {}, children || props),
-	},
-);
-
-module.exports = haDom;
+export default baracuda;
