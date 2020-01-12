@@ -1,0 +1,28 @@
+{
+  "name": "@amoutonbrady/ha-dom",
+  "description": "An alternative to JSX to work with HyperApp v2 view layer",
+  "version": "0.0.1",
+  "license": "MIT",
+  "files": [
+    "dist-*/",
+    "bin/"
+  ],
+  "pika": true,
+  "sideEffects": false,
+  "dependencies": {},
+  "peerDependencies": {
+    "hyperapp": "^2.0.3"
+  },
+  "devDependencies": {
+    "@pika/pack": "^0.5.0",
+    "@pika/plugin-build-web": "^0.8.1",
+    "@pika/plugin-bundle-web": "^0.8.1",
+    "@pika/plugin-standard-pkg": "^0.8.1",
+    "pika-plugin-unpkg-field": "^1.1.0",
+    "prettier": "^1.19.1"
+  },
+  "esnext": "dist-src/index.js",
+  "module": "dist-web/index.js",
+  "browser": "dist-web/index.bundled.js",
+  "unpkg": "dist-web/index.bundled.js"
+}
