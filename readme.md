@@ -2,7 +2,7 @@
 
 # Baracuda
 
-A tiny (319B), modern and fast utility to make working with [hyperscript](https://github.com/hyperhype/hyperscript) easier
+A tiny (426B), modern and fast utility to make working with [hyperscript](https://github.com/hyperhype/hyperscript) easier
 
 ## Why?
 
