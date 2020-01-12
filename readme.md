@@ -68,6 +68,8 @@ Where:
 
 _note: the library exports a default function and a name function_
 
+#### Quick example
+
 ```
     import { h, render } from 'my-dom-library';
     import { baracuda } from '@amoutonbrady/baracuda';
@@ -82,6 +84,10 @@ _note: the library exports a default function and a name function_
 
     render(app, document.body);
 ```
+
+#### Live example
+
+-   [Adapting the official Hyperapp V2 example using Baracuda](https://codesandbox.io/s/hyperapp-baracuda-example-e5ful)
 
 ## Limitations
 
@@ -107,9 +113,9 @@ Mithril is momentarly partially compatible for the moment.
 
 ## Roadmap
 
-[ ] Typescript support
-[ ] Add helpers, like classes, id
-[ ] More tests
+-   [ ] Typescript support
+-   [ ] Add helpers, like classes, id
+-   [ ] More tests
 
 ## Aknowledgment
 
