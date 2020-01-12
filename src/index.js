@@ -1,5 +1,8 @@
-// Inspired by https://github.com/ohanhi/hyperscript-helpers/issues/26
-const isObject = param => String(param) === '[object Object]';
+// Object validation inspired from: https://github.com/lukeed/klona/blob/master/src/index.js
+const isObject = param =>
+	typeof param === 'object' &&
+	Object.prototype.toString.call(param) === '[object Object]' &&
+	!param.props;
 
 export const baracuda = h =>
 	new Proxy(h, {
