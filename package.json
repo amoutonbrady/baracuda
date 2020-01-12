@@ -14,7 +14,7 @@
 		"build": "pika build",
 		"release": "pika publish",
 		"version": "npm run build",
-		"test": "nyc riteway -r esm tests/**/*.test.js | tap-nirvana"
+		"test": "riteway -r esm tests/**/*.test.js | tap-nirvana"
 	},
 	"devDependencies": {
 		"@pika/pack": "^0.5.0",
