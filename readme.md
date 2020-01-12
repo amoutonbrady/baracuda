@@ -34,6 +34,15 @@ or
 
 Import the `baracuda` factory function and wrap it around an `hyperscript` like function.
 
+According to tests, `baracuda` should be compatible with the following frameworks:
+
+-   Vue 3: `import { h } from 'vue'`
+-   Hyperapp: `import { h } from 'hyperapp'`
+-   Preact: `import { h } from 'preact'`
+-   Inferno: `import { h } from 'inferno-hyperscript'`
+
+You can find more example in the `tests` directory
+
 The `hyperscript` like function has to take **3 arguments** :
 
 ```ts
@@ -74,13 +83,13 @@ _note: the library exports a default function and a name function_
     render(app, document.body);
 ```
 
-You can find more example in the `tests` directory
-
 ## Limitations
 
 This utility is based on an non polyfillable feature: Proxy. This can't be used in a non evergreen browser.
 
 See [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#Browser_compatibility) for the full compatibility list. We only make use of the `handler.get` feature.
+
+Mithril is momentarly partially compatible for the moment.
 
 ## Contributing
 
@@ -98,8 +107,9 @@ See [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Glob
 
 ## Roadmap
 
-[_] Typescript support
-[_] Add helpers, like classes, id
+[ ] Typescript support
+[ ] Add helpers, like classes, id
+[ ] More tests
 
 ## Aknowledgment
 

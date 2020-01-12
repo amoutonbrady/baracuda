@@ -23,12 +23,15 @@
 		"@pika/plugin-standard-pkg": "^0.8.1",
 		"esm": "^3.2.25",
 		"hyperapp": "^2.0.3",
+		"inferno-hyperscript": "^7.3.3",
+		"jsdom": "^15.2.1",
 		"nyc": "^15.0.0",
 		"pika-plugin-unpkg-field": "^1.1.0",
 		"preact": "^10.2.1",
 		"prettier": "^1.19.1",
 		"riteway": "^6.1.1",
-		"tap-nirvana": "^1.1.0"
+		"tap-nirvana": "^1.1.0",
+		"vue": "^3.0.0-alpha.1"
 	},
 	"publishConfig": {
 		"access": "public"
