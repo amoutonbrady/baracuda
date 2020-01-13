@@ -9,10 +9,7 @@ A tiny (400B), modern and fast utility around [hyperscript](https://github.com/h
 Mostly code readability and DX. `h1('Hello world')` is easier to understand (for me that is) than `h('h1', {}, 'Hello world')`. It comes in handy when you have nested childrens.
 
 ```js
-ul([
-    li('First item'), 
-    li('Second item'),
-])
+ul([li('First item'), li('Second item')]);
 ```
 
 There was [other](https://github.com/ohanhi/hyperscript-helpers) [options](https://github.com/ungoldman/hyperaxe) but they seemed a little on the heavy side. I wanted something modern and slick.
@@ -112,7 +109,7 @@ yarn test
 
 ## Roadmap
 
--   [ ] Typescript support
+-   [x] ~Typescript support~ Better Typescript support
 -   [ ] Add helpers, like classes, id
 -   [ ] More tests
 
