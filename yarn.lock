@@ -832,13 +832,13 @@
     rollup-plugin-node-resolve "^4.0.0"
     rollup-plugin-terser "^5.1.1"
 
-"@pika/plugin-standard-pkg@^0.8.1":
+"@pika/plugin-ts-standard-pkg@^0.8.1":
   version "0.8.1"
-  resolved "https://registry.yarnpkg.com/@pika/plugin-standard-pkg/-/plugin-standard-pkg-0.8.1.tgz#07e21cd64ab42e73476cfd8a3aed2e35c5aa0aff"
-  integrity sha512-ZtIUtssKxHVv1wPrzwvCKPXhNeBuJ4s13WCKO1PL7zJwLq8lvxQsLvi47b4mmImrgXU88tIoqDbR1hUx8SgifQ==
+  resolved "https://registry.yarnpkg.com/@pika/plugin-ts-standard-pkg/-/plugin-ts-standard-pkg-0.8.1.tgz#a7bfc303a89e1c31512afe5fdaf1707a14303173"
+  integrity sha512-5uTdQECX4hlxDEx1O8po9oReGfgfYxNRnZixaeVkiSlTMMRXvoiumI2T28YKRc6V0qGecaHe96hcbkoSp6Tbbg==
   dependencies:
     "@pika/types" "^0.8.1"
-    "@types/node" "^10.12.18"
+    execa "^2.0.0"
     standard-pkg "^0.5.0"
 
 "@pika/types@^0.6.0":
@@ -1924,7 +1924,7 @@ execa@^0.7.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-execa@^2.0.3:
+execa@^2.0.0, execa@^2.0.3:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/execa/-/execa-2.1.0.tgz#e5d3ecd837d2a60ec50f3da78fd39767747bbe99"
   integrity sha512-Y/URAVapfbYy2Xp/gb6A0E7iR8xeqOCXsuuaoMn7A5PzrXUK84E1gyiEfq0wQd/GHA6GsoHWwhNq8anb0mleIw==
@@ -4767,6 +4767,11 @@ typedarray-to-buffer@^3.1.5:
   integrity sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==
   dependencies:
     is-typedarray "^1.0.0"
+
+typescript@^3.7.4:
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.4.tgz#1743a5ec5fef6a1fa9f3e4708e33c81c73876c19"
+  integrity sha512-A25xv5XCtarLwXpcDNZzCGvW2D1S3/bACratYBx2sax8PefsFhlYmkQicKHvpYflFS8if4zne5zT5kpJ7pzuvw==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"

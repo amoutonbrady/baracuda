@@ -1,8 +1,8 @@
 import { describe } from 'riteway';
-import hh from '../src/index';
+import { baracuda } from '../pkg/dist-web';
 
 export const testRunner = (name, h) => {
-	const { section, ul, li, input, p } = hh(h);
+	const { section, ul, li, input, p } = baracuda(h);
 
 	describe(`proxy work with ${name}`, async assert => {
 		const state = { value: 'Hello, World' };

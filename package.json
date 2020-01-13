@@ -9,18 +9,22 @@
 	"files": [
 		"pkg/"
 	],
-	"main": "src/index.js",
+	"main": "src/index.ts",
 	"scripts": {
 		"build": "pika build",
 		"release": "pika publish",
-		"version": "npm run build",
-		"test": "riteway -r esm tests/**/*.test.js | tap-nirvana"
+		"pretest": "yarn build",
+		"test": "riteway -r esm tests/**/*.test.js | tap-nirvana",
+		"version": "yarn build"
+	},
+	"dependencies": {
+		"typescript": "^3.7.4"
 	},
 	"devDependencies": {
 		"@pika/pack": "^0.5.0",
 		"@pika/plugin-build-web": "^0.8.1",
 		"@pika/plugin-bundle-web": "^0.8.1",
-		"@pika/plugin-standard-pkg": "^0.8.1",
+		"@pika/plugin-ts-standard-pkg": "^0.8.1",
 		"esm": "^3.2.25",
 		"hyperapp": "^2.0.3",
 		"inferno-hyperscript": "^7.3.3",
@@ -39,7 +43,7 @@
 	"@pika/pack": {
 		"pipeline": [
 			[
-				"@pika/plugin-standard-pkg"
+				"@pika/plugin-ts-standard-pkg"
 			],
 			[
 				"@pika/plugin-build-web"
