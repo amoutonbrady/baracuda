@@ -2,7 +2,7 @@
 
 # Baracuda
 
-A tiny (400B), modern and fast utility around [hyperscript](https://github.com/hyperhype/hyperscript) like view layer easier
+A tiny (400B), modern and fast utility around [hyperscript](https://github.com/hyperhype/hyperscript) like view layer
 
 ## Why?
 
