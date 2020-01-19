@@ -33,6 +33,7 @@
 		"pika-plugin-unpkg-field": "^1.1.0",
 		"preact": "^10.2.1",
 		"prettier": "^1.19.1",
+		"redom": "^3.25.0",
 		"riteway": "^6.1.1",
 		"tap-nirvana": "^1.1.0",
 		"vue": "^3.0.0-alpha.1"

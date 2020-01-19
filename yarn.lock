@@ -3882,6 +3882,11 @@ redent@^2.0.0:
     indent-string "^3.0.0"
     strip-indent "^2.0.0"
 
+redom@^3.25.0:
+  version "3.25.0"
+  resolved "https://registry.yarnpkg.com/redom/-/redom-3.25.0.tgz#5e47aa77a6faec3d4a775620cbc4c76e71dfdc67"
+  integrity sha512-c6+ug7nUhLc+RFFcmloeYDh1NIqNVGu8YUIpVdiCMqP3FbQusBT0O6kIOh1PK+kBCCNLVotlryRmhxztkyF7fg==
+
 regenerate-unicode-properties@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/regenerate-unicode-properties/-/regenerate-unicode-properties-8.1.0.tgz#ef51e0f0ea4ad424b77bf7cb41f3e015c70a3f0e"

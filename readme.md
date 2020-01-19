@@ -30,12 +30,13 @@ yarn add @amoutonbrady/baracuda
 
 Import the `baracuda` factory function and wrap it around an `hyperscript` like function.
 
-According to tests, `baracuda` should be compatible with the following frameworks:
+According to tests, `baracuda` should be _at least_ compatible with the following frameworks:
 
 -   Vue 3: `import { h } from 'vue'`
 -   Hyperapp: `import { h } from 'hyperapp'`
 -   Preact: `import { h } from 'preact'`
 -   Inferno: `import { h } from 'inferno-hyperscript'`
+-   Redom: `import { el } from 'redom'`
 
 You can find more example in the `tests` directory
 
