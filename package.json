@@ -15,7 +15,8 @@
 		"release": "pika publish",
 		"pretest": "yarn build",
 		"test": "riteway -r esm tests/**/*.test.js | tap-nirvana",
-		"version": "yarn build"
+		"version": "yarn build",
+		"prettier": "prettier --write \"{src,tests}/**/*.{ts,js}\""
 	},
 	"devDependencies": {
 		"@pika/pack": "^0.5.0",
