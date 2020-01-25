@@ -60,5 +60,12 @@ export const testRunner = (name, h) => {
 			actual: section(p(state.value)),
 			expected: h('section', {}, h('p', {}, state.value)),
 		});
+
+		assert({
+			given: 'a proxy with multiple childrens',
+			should: 'match the VNode input created with h()',
+			actual: section('hello', 'world'),
+			expected: h('section', {}, 'hello', 'world'),
+		});
 	});
 };
